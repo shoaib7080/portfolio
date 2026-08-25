@@ -21,7 +21,7 @@ export const projects: Project[] = [
     description:
       "Full-stack e-commerce platform with a responsive storefront and an admin dashboard for full CRUD management of products, inventory, and orders.",
     tech: ["React", "Node.js", "MongoDB", "Tailwind CSS", "JWT"],
-    featured: true,
+    featured: false,
   },
   {
     slug: "small-hands",
@@ -32,6 +32,7 @@ export const projects: Project[] = [
       "Two-sided PWA connecting citizens and NGOs — citizens submit geo-tagged reports, and nearby NGOs are notified instantly over WebSockets and can claim and resolve issues in real time.",
     tech: ["React", "Node.js", "Socket.io", "Google Maps API", "PWA"],
     featured: true,
+    live: "https://www.smallhands.online/",
   },
   {
     slug: "imagify",
@@ -42,6 +43,7 @@ export const projects: Project[] = [
       "AI text-to-image generator powered by the OpenAI DALL-E API. The Express backend securely proxies API calls and enforces per-user credit limits.",
     tech: ["React", "Node.js", "Express", "OpenAI API", "MongoDB"],
     featured: true,
+    live: "https://imagify-d82z.vercel.app/",
   },
   {
     slug: "company-erp",
@@ -52,7 +54,8 @@ export const projects: Project[] = [
     description:
       "An internal ERP with a MERN backend and a role-based React dashboard, covering core company operations end to end.",
     tech: ["React", "Node.js", "MongoDB", "Express"],
-    featured: false,
+    featured: true,
+    github: "https://github.com/shoaib7080/manpower-management-system",
   },
   {
     slug: "review-platform",
